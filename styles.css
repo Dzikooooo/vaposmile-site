@@ -297,13 +297,15 @@ display:block;
 
 @media(max-width:850px){
 
-.site-logo{
- width:42px;
- height:42px;
- border-radius:50%;
- object-fit:cover;
- background:#fff;
- flex-shrink:0;
+.logo .site-logo {
+  width: 54px !important;
+  height: 54px !important;
+  max-width: 54px !important;
+  max-height: 54px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  background: white;
+  flex-shrink: 0;
 }
 
 .card small {
