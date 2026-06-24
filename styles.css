@@ -297,3 +297,10 @@ grid-template-columns:1fr;
 }
 
 }
+.site-logo{
+width:54px;
+height:54px;
+border-radius:50%;
+object-fit:cover;
+background:white;
+}
