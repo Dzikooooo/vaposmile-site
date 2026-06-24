@@ -288,9 +288,10 @@ display:block;
   border-radius:24px;
   display:block;
   background:transparent;
+   transition:0.3s ease;
 }
 .gallery img:hover{
-    transform:scale(1.03);
+    transform:translateY(-4px);
 }
 
 .logo .site-logo {
