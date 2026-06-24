@@ -323,3 +323,6 @@ display:block;
   color: #ffffff;
   font-weight: 700;
 }
+html {
+  scroll-padding-top: 100px;
+}
