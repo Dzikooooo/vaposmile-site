@@ -304,3 +304,13 @@ border-radius:50%;
 object-fit:cover;
 background:white;
 }
+.stars {
+  margin-bottom: 14px;
+}
+
+.card small {
+  display: block;
+  margin-top: 14px;
+  color: #ffffff;
+  font-weight: 700;
+}
