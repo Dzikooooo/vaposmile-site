@@ -295,19 +295,27 @@ display:block;
   transform:translateY(-8px);
 }
 
-@media(max-width:850px){
-
 .logo .site-logo {
-  width: 54px !important;
-  height: 54px !important;
-  max-width: 54px !important;
-  max-height: 54px !important;
-  border-radius: 50%;
-  object-fit: cover;
-  background: white;
-  flex-shrink: 0;
+    width:54px !important;
+    height:54px !important;
+    max-width:54px !important;
+    max-height:54px !important;
+    border-radius:50%;
+    object-fit:cover;
+    background:white;
+    flex-shrink:0;
 }
 
+@media(max-width:850px){
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+}
+.site-logo{
+    display:block;
+}
 .card small {
   display: block;
   margin-top: 14px;
